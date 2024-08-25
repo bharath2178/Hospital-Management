@@ -1,0 +1,24 @@
+.Mainpage{
+  
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(251, 253, 255);
+    width:500pX;
+    border:0.25px solid;
+    border-radius: 5px;
+}
+
+.info input{
+    width:300px;
+    border-radius:5px;
+}

@@ -1,0 +1,98 @@
+<form>
+              <div className="form-group">
+               <input  type="text" className="form-control" id="student_id" hidden
+               value={id}
+               onChange={(event) =>
+                {
+                  setId(event.target.value);      
+                }}
+               
+               />
+                <label>Patient Name</label>
+                <input  type="text" className="form-control" id="pname"
+                value={pname}
+                onChange={(event) =>
+                  {
+                    setPname(event.target.value);      
+                  }}
+                />
+              </div>
+              <div className="form-group">
+                <label>Phone number</label>
+                <input  type="text" className="form-control" id="phno" 
+                 value={phno}
+                  onChange={(event) =>
+                    {
+                      setPhno(event.target.value);      
+                    }}
+                />
+              </div>
+              <div className="form-group">
+                <label>Age</label>
+                <input type="text" className="form-control" id="age" 
+                  value={age}
+                onChange={(event) =>
+                  {
+                    setAge(event.target.value);      
+                  }}
+                />
+              </div>
+              <div className="form-group">
+                <label>Doctor consulted</label>
+                <input type="text" className="form-control" id="docname" 
+                  value={docname}
+                onChange={(event) =>
+                  {
+                    setDocname(event.target.value);      
+                  }}
+                />
+              </div>
+              <div className="form-group">
+                <label>Date Visited</label>
+                <input type="text" className="form-control" id="date" 
+                  value={date}
+                onChange={(event) =>
+                  {
+                    setDate(event.target.value);      
+                  }}
+                />
+              </div>
+
+                 <div>
+              <button   className="btn btn-warning mt-4"  onClick={save}>Register</button>
+              {/* <button   className="btn btn-warning mt-4"  onClick={update}>Update</button> */}
+              </div>   
+            </form>
+
+
+
+            //
+             {/* <div className="container mt-5">
+  <div className="row justify-content-center">
+    <div className="col-md-6">
+      <div className="card">
+        <div className="card-header">
+          <h4>Login</h4>
+        </div>
+        <div className="card-body">
+          <form>
+            <div className="form-group">
+              <label for="username">Username</label>
+              <input type="text" className="form-control" id="username" placeholder="Enter your username"/>
+            </div>
+            <div className="form-group">
+              <label for="password">Password</label>
+              <input type="password" className="form-control" id="password" placeholder="Enter your password"/>
+            </div>
+            <button type="submit" className="btn btn-primary btn-block"onClick={login}>Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <p>demo:</p>
+    <br />
+    <p>username:user</p>
+    <br />
+    <p>password:password</p> */}
